@@ -12,31 +12,95 @@
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 	<body>
-	<h3> Our Address</h3>
-	<address>
-		2 Olare Layout<br>
-		Warri<br>
-		Delta State.
-		+2347038994579
-		info@sharpateinvestment.co.ng
-	</address>
-	<h3>Contact us</h3>
-	<form>
-		<label for="subject">Subject</label>
-		<input type ="text" id='subject' name='subject' placeholder="Enter message subject">
-		<label for="name">Full Name</label>
-		<input type ="text" id='name' name='name' placeholder="Enter Fullnames">
-		<label for=" fonenum">Phone Number</label>
-		<input type ="number" id='fonenum' name='fonenum' placeholder="Enter Phone Number">
-		<label for="subject">Email</label>
-		<input type ="email" id='email' name=' email' placeholder="Enter Email" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-		<span>prefered means of contact</span>
-		<input type="radio" id="byemail" name="byemail" value="email">
-		<label for=" byemail">email</label>
-		<input type="radio" id="byfone" name="byfone" value="fone">
-		<label for=" byfone">Fone</label>
-		<label for="message"> Message</label>
-		<textarea id="message" name="subject"></textarea>
-	</form>
+		<header class="jumbotron">
+			<h1> Sharpate Investment Services</h1>
+		</header>
+		<div class= "container">
+		
+			<div class="row">
+				<div class="col-12">
+				   <h3>Contact Us</h3>
+				   <hr>
+               </div>
+			</div>
+			<div class="row ">
+			   <div class="col-12">
+				  <h3>Location Information</h3>
+			   </div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h3> Our Address</h3>
+					<address>
+						2 Olare Layout<br>
+						Warri<br>
+						Delta State.
+						+2347038994579
+						info@sharpateinvestment.co.ng
+					</address>
+				</div>
+			</div>	
+			<div class="row row-content">
+			   <div class="col-12">
+				  <h3>Direct Message </h3>
+			   </div>
+				<div class="col-12 col-md-9">
+					<form>
+						<div class="form-group row">
+							<label  class="col-form-label col-md-2"for="subject">Subject</label>
+							<div class="col-md-10">
+								<input type ="text" class ="form-control" id='subject' name='subject' placeholder="Enter message subject">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="name" class="col-form-label col-md-2">Full Name</label>
+							<div class="col-md-10">
+								<input type ="text" class="form-control" id='name' name='name' placeholder="Enter Fullnames">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for=" fonenum" class="col-form-label col-md-2">Phone Number</label>
+							<div class="col-md-10">
+								<input type ="number"  class="form-control"  id='fonenum' name='fonenum' placeholder="Enter Phone Number">
+                            </div>							
+						</div>
+						<div class="form-group row">
+							<label for="subject" class="col-form-label col-md-2">Email</label>
+								<div class="col-md-10">
+									<input type ="email" class="form-control" id='email' name=' email' placeholder="Enter Email" pattern ="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-2">
+								<span>Contact via</span>
+							</div>
+							<div class="offset-sm-1">
+								<div class="form-check form-check-inline ">
+									<input type="radio" class="form-check-input" id="byemail" name="byemail" value="email">
+									
+									<label for="byemail" class ="form-check-label">Email</label>
+								</div>
+								<div class="form-check form-check-inline ">
+									<input type="radio" class="form-check-input"  id="byfone" name="byfone" value="fone">
+									<label for=" byfone" class ="form-check-label" >Fone</label>
+								</div>
+							</div>
+						</div>
+						
+						<div class="form-group row">
+							<label for="message"class ="col-form-label col-md-2"> Message</label>
+							<div class="col-md-10">
+								<textarea id="message" name="subject" class ="form-control" rows="13" col="10"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<div class="offset-md-4">
+								<button class="btn btn-success"type="button" >Submit</button>
+							</div>	
+						</div>	
+				
+			        </form>
+				</div>
+			</div>	
+        </div>
+	
 	</body>
 </html>
