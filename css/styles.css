@@ -1,7 +1,28 @@
-
 .jumbotron{
+	background:#CC1854;
 	padding : 70px 30px 70px 30px;
 	margin:0px auto;
-	background:pink;
-	color: floralwhite;
+}
+.navbar-dark {
+     background-color: #80032C;
+}
+h2{
+	color:#D5C72F;
+}
+.btn{
+	background-color: #D5C72F;
+	color:#CC1854;
+}
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge #D5C72F ;
+    min-height:300px;
+}
+h1{
+	color:white;
+}
+footer{
+	background:#037999;
+	margin:0px auto;
 }

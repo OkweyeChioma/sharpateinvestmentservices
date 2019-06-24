@@ -14,13 +14,30 @@
 		<title>Sharpate Investment Services</title>
 	</head>
 	<body>
+			<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+		<div class ="container">
+			<button class="navbar-toggler" type ="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+				<div class="collapse navbar-collapse" id="Navbar" >
+					<ul class ="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="#"><span class ="fa fa-home fa-lg"></span>Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="./contactus.html"><span class ="fa fa-address-card fa-lg"></span>Contact</a></li>
+				</ul>
+			</div>	
+				
+		</div>
+		
+	</nav>
 		<header class="jumbotron">
-			<h1> Sharpate Investment Services</h1>
+			<div class="container">
+				<h1> Sharpate Investment Services</h1>
+			</div>	
 		</header>
 		<div class="container">	
-			<div class="row" >
+			<div class="row row-content" >
 				<div class="col-12 col-sm-8">
-					<h1> What We Do</h1>
+					<h2> What We Do</h2>
 					<p> We offer financial  advisory services to our client. To us portfolio management first begin with understanding a customers cash flow and risk
 					appetite. After that together an investment mix is decided upon. <br>Finally we assist you manage this portfolio all the way until retirement.
 				</p>
@@ -29,7 +46,7 @@
 					<a href="doc/regform.docx" download="Registration Form" id="#download" > Download Registration form</a>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row row-content">
 				<div class="col-12 col-sm-8">
 					<h2> What Is a Portfolio</h2>
 					<p>A portfolio is a grouping of financial assets such as stocks, bonds, commodities, currencies and cash equivalents, as well as their fund counterparts, 
@@ -46,7 +63,7 @@
 				</div>
 			</div>	
 				
-			<div class="row">
+			<div class="row row-content">
 				<div class="col-12 col-sm-3 align-self-center">
 					<h2>Now or at Retirement? </h2>
 				</div>	
@@ -65,16 +82,14 @@
 					Memories are meant to be created at a young age and savored at old age. 
 					</p>
 				</div>
-			</div>			
-			<div class="row">
-
+			
 				<div class="col-sm-3">
 					<div class="card">
 						<img class="card-img-top" src="img/agbroko.jpg" height="300">
 					</div>	
 					<div class="card-block">
 						<h4 class="card-title">Tourism</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Visit the beautiful Alps in Swizerland.<br>Try skiing</p>
 					</div>
 				</div>	
 					<div class="col-sm-3">
@@ -83,7 +98,7 @@
 						</div>
 						<div class="card-block">
 							<h4 class="card-title">Education</h4>
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<p class="card-text">Invest in yourself and create more income. </p>
 						</div>
 					</div>	
 					<div class="col-sm-3">
@@ -92,7 +107,7 @@
 					</div>	
 					<div class="card-block">
 						<h4 class="card-title"> Own a Car</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Own that Mercedes Benz 4matic you have been dreaming of.</p>
 					</div>
 				</div>
 				<div class="col-sm-3">
@@ -101,12 +116,12 @@
 					</div>	
 					<div class="card-block">
 						<h4 class="card-title"> Buy a House</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<p class="card-text">Afford an apartment in Osborne Rd, Ikoyi</p>
 					</div>
 				</div>	
-					
-			</div>
-			<div class="row">
+			</div>		
+			
+			<div class="row row-content">
 				<div class="col-12 col-sm-8">
 					<h2> Employed</h2>
 				    <p> Under the Nigerian Pension Reform Act (NRPA 2014) ,all employers are mandated to deduct 8  percent of their employees net income on a monthly basis as contribution towards pension fund and to contribute
@@ -131,7 +146,7 @@
 									</div>
 									<div class="form-group row">
 										<div class="offset-md-4 col-md-6">
-											<button class="btn btn-success" type="button" onclick="myFunction()">Calculate</button>
+											<button class="btn" type="button" onclick="myFunction()">Calculate</button>
 										</div>
 									</div>
 								</fieldset>
@@ -145,7 +160,7 @@
 						<br>
 						<br>
 						To find out more, click on the link  below</p>
-						<button class="btn btn-success">
+						<button class="btn">
 						<a data-toggle="collapse" data-target="#variable">Fixed Income Earners</a>				
 						</button>
 						<!-- use an accordion here make we finish and submit on Monday tops-->
@@ -169,7 +184,7 @@
 					
 					
 			</div>
-			<div class="row">
+			<div class="row row-content">
 				<div class='col-12 col-sm-8'>
 					<h2> Self-Employed </h2>
 					<p>For the self-employed there are no government directive as to a pension plan. You as your own boss decides if to and how to set aside contributions.
@@ -178,7 +193,7 @@
 						<br>
 						<br>
 						To find out more, click on the link  below</p>
-					<button class="btn btn-success" ><a data-toggle="collapse" data-target="#fixed">Variable Income Earners</a></button>
+					<button class="btn" ><a data-toggle="collapse" data-target="#fixed">Variable Income Earners</a></button>
 					<div id="accordion">
 						<div class="collapse" id="fixed" data-parent="#accordion">
 							<ol>
@@ -198,8 +213,9 @@
 				</div>
 			</div>
 			
-			
+		
 		</div>
+		
 		
 		<script>
 			function myFunction(){
